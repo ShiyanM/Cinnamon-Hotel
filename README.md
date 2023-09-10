@@ -1,0 +1,2 @@
+# Cinnamon-Hotel
+Hotel creation

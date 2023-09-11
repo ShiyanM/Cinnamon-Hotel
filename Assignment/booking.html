@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Booking</title>
+</head>
+<body>
+    <!--Navigation-->
+<div class="nav">
+    <section class="logo"><a href="./Homepage.html"><img src="cinnamon-hotels-and-resorts-logo-vector.webp" alt="logo" width="200px"></a></section>
+    <div class="navM">
+        <li><a href="./Homepage.html" target="_blank">Home</a></li>
+        <li><a href="./HotelBranches.html" target="_blank">Hotel Branches</a></li>
+        <li><a href="./Adventures.html" target="_blank">Adventures</a></li>
+        <li><a href="./Restaurants.html" target="_blank">Restaurants</a></li>
+        <li><a href="./Events.html" target="_blank">Events</a></li>
+        </nav>
+    </div>
+</div>
+</header>
+<section class="bookbody">
+     <section class="bookcon">
+         <section class="formbody">
+             <!--Form Head-->
+             <section class="bookhead">
+                 <h2>Reservations</h2>
+                 <p>Please Fill this form to make your reservation.</p>
+             </section>
+             <!--Form Body-->
+
+             <form class="bookmain" action="#">
+                     <section class="br"> <!--row 1-->
+                         <section class="bc1">
+                             <h3>First Name</h3>
+                             <input type="text" name="fname" id="fname" placeholder="Reserver's First Name" required>
+                         </section>
+                         <section class="bc1">
+                             <h3>Last Name</h3>
+                             <input type="text" name="fname" id="fname" placeholder="Reserver's Last Name" required>
+                         </section>
+                     </section>
+                     <section class="br"><!--row 2-->
+                         <section class="bc1">
+                             <h3>E-Mail</h3>
+                             <input type="email" name="email" id="email" placeholder="E-Mail For Conformation" required>
+                         </section>
+                         <section class="bc1">
+                             <h3>Phone No.</h3>
+                             <input type="tel" name="cno" id="cno" placeholder="0011223344" required>
+                         </section>
+                     </section>
+                     <section class="br"><!--row 3-->
+                         <section class="bc1">
+                             <h3>Arrival Date</h3>
+                             <input type="date" name="arrivaldate" id="ad" required>
+                         </section>
+                         <section class="bc1">
+                             <h3>Departure Date</h3>
+                             <input type="date" name="departuredate" id="dd" required>
+                         </section>
+                     </section>
+                     <section class="br"><!--row 4-->
+                         <section class="bc1">
+                             <h3>Branch</h3>
+                                 <select id="brdrop" name="brdrop">
+                                 <option value="CGrand">Cinnamon Grand</option>
+                                 <option value="Cred">Cinnamon Red</option>
+                                 <option value="Cbey">Cinnamon Bey</option>
+                                 </select>
+                         </section>
+                         <section class="bc1">
+                             <h3>Adventure</h3>
+                                 <select id="advdrop" name="advdrop">
+                                 <option value="CWild"> Cinnamon Wild Yala</option>
+                                 <option value="Private BBQ Dinner">Private BBQ Dinner</option>
+                                 </select>
+                         </section>
+                     </section>
+                     <section class="br"><!--row 5-->
+                         <section class="bc3">
+                             <input type="button" value="Place Reservations" onclick="alert('You have palaced your Reservation')">
+                         </section>
+                     </section>
+                 </form>
+         </section>
+     </section>
+</section>
+
+<!--Footer-->
+<footer>
+    <section class="row">
+        <section class="FD">
+            <img src="./cinnamon-hotels-and-resorts-logo-vector.webp" alt="logo of Cinnamon" class="footlogo">
+            <p>Ah, you hear that? It's the waves, sunshiny
+                chirps and the wilderness calling you!</p>
+        </section>
+        <section class="col">  
+            <p>Cinnamon Hotel Management Limited</p>
+            <p>No. 05, Justice Akbar Mawatha</p>
+            <p>Colombo 02</p>
+            <p>Sri Lanka.</p>
+            <p>+94 - 11 - 2161161</p>
+            <p>+94 - 11 - 2320862</p>
+            <H4 class="email-id">cinnamongroup@gmail.com</H4>
+        </section>
+    </section>
+    <hr>
+    <p class="copyright">Cinnamon Group © 2023 - Shiyan majeed</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(1, 0, 25);
+    animation-iteration-count: infinite;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(6, 55, 253, 0.36);
+    padding: 10px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.navM li{
+    display: inline-block;
+    padding: 10px;
+}
+.navM li a{
+    text-decoration: none;
+    color: rgba(251, 251, 251, 0.926);
+    font-size: 20px;
+    transition: 0.8s;
+}
+.navM li a:hover{
+    background-color: rgba(217, 217, 224, 0.259);
+    font-size: 25px;
+    height: 10px;
+}
+h1{
+    color: snow;
+    position: absolute;
+    text-align: center;
+    font-size: 75px;
+    font-style: italic;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+/*Wedding*/
+.W_H{
+    background-image: url(./wedding_HB.jpg);
+    height: 100vh;
+    padding-left: 5%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+.wed1{
+    position: relative;
+    width: 60vw;
+    height: 500px;
+    background-image: url(Match_made_in_heaven.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(123, 123, 123, 0.595);
+    transition: all .4s ease;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.wed h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+} 
+.wed p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 2%;
+}
+.wed a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.wed a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    background-color: rgba(22, 22, 22, 0.721);
+    border-radius: 8px;
+    border-color:solid 2px snow;
+}
+.wed:hover {
+    color: snow;
+    color: rgb(225, 225, 225);
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(123, 123, 123, 0.595);
+    background-color: rgb(0, 0, 0,0.5);
+    background-blend-mode:darken ;
+}
+.wed2{
+    position: relative;
+    width: 60vw;
+    height: 500px;
+    background-image: url(Day_to_savour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: 20px 20px rgba(123, 123, 123, 0.595);
+    transition: all .4s ease;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.wed:hover {
+    color: rgb(225, 225, 225);
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(123, 123, 123, 0.595);
+    background-color: rgb(0, 0, 0,0.5);
+    background-blend-mode:darken ;
+}
+.wed3{
+    position: relative;
+    width: 60vw;
+    height: 500px;
+    background-image: url(./CGC-Restaurant_Food_Lagoon_1_1090x610.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: 20px 20px rgba(123, 123, 123, 0.595);
+    transition: all .4s ease;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom:10% ;
+}
+@media(max-width:700px){
+    .W_H h1{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 55px;
+        text-align: center;
+
+    }
+}
+
+/*footer design*/
+footer p,footer h3, footer h4{
+    font-size: 15px;
+    color: white;
+}
+footer{
+    text-decoration: none;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    background-color: rgba(6, 55, 253, 0.36);
+    color: #fff;
+    padding: 40px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.FD{
+    flex-basis: 20%;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+.FD h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.FD P{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: #fff 1px solid;
+    text-align: center;
+}
+.footlogo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+
